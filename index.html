@@ -374,7 +374,9 @@ function attachDragEvents() {
   });
 }
 
-buildTabs(); render(); updateStats();
+document.addEventListener("DOMContentLoaded", function() {
+  buildTabs(); render(); updateStats();
+});
 </script>
 </body>
 </html>
